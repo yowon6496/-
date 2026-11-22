@@ -1,0 +1,49 @@
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 400px;
+}
+
+.footer-quote {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-player {
+    width: 700px;
+    height: auto;
+    left: 300px;
+    margin-top: 30px;
+    position: relative;
+    /* 이거를 해야지 레프트 마진이 먹음*/
+}
+
+.footer-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.footer-red {
+    color: #ED1A23;
+}
+
+.footer-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #9a9a9a;
+}
+
+.footer-btns {
+    display: flex;
+    gap: 60px;
+}
