@@ -1,0 +1,170 @@
+body {
+    background-color: #000000;
+    color: #ffff;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.built .eyebrow,
+.built-title {
+    padding-left: 20px;
+}
+
+.built-title {
+    font-size: 70px;
+}
+
+.built-body {
+    display: flex;
+    /* 사진,프로필 가로로*/
+    padding: 60px 60px 0 60px;
+    gap: 140px;
+}
+
+.built-profile-01 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+
+.built-image {
+    position: relative;
+    border: 2px solid yellow;
+
+}
+
+.built-image img {
+    position: relative;
+    z-index: 2;
+    width: 500px;
+    height: auto;
+    top: 80px;
+}
+
+.built-number {
+    position: absolute;
+    top: -150px;
+    left: 50px;
+    font-size: 350px;
+    font-weight: 700;
+}
+
+.built-profile {
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 40px 80px;
+}
+
+.built-profile-information {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 300;
+    gap: 30px;
+}
+
+.built-name {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.team-name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.team-name-red {
+    color: #ED1A23;
+}
+
+.built-profile-award {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 18px;
+}
+
+.built-profile-award img {
+    height: 30px;
+    width: auto;
+}
+
+.score {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 60px;
+    padding: 16px;
+    border-left: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.built-score-title {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.built-score-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.built-score-value {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.built-band {
+    height: 60px;
+    background: linear-gradient(90deg, #e3141f, #160001);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.built-band-name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.built-band img {
+    height: 100px;
+    width: auto;
+}
+
+.profile-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 999px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.is-red {
+    background: #ED1A23
+}
+
+.is-line {
+    border: 1.5px solid #ffff;
+}

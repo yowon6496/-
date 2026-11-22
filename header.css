@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.menu-num {
+    font-weight: 700;
+    font-size: 12pt;
+    color: #ED1A23;
+}
+
+header {
+    border-bottom: 1px solid #ffff;
+    padding-bottom: 30px;
+}

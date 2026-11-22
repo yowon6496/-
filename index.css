@@ -24,21 +24,16 @@ body {
     font-weight: 300;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+.eyebrow {
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 300;
 }
 
-.menu-item {
-    font-weight: 500;
-    font-size: 12pt;
-}
-
-.menu-num {
-    font-weight: 700;
-    font-size: 12pt;
+.eyebrow-red {
     color: #ED1A23;
+}
+
+main {
+    margin-top: 200px;
 }
