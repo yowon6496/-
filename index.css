@@ -37,3 +37,12 @@ body {
 main {
     margin-top: 200px;
 }
+
+.eyebrow,
+.section-title {
+    padding-left: 20px;
+}
+
+.section-title {
+    font-size: 70px;
+}

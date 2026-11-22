@@ -11,12 +11,12 @@ p {
     margin: 0;
 }
 
-.built .eyebrow,
-.built-title {
+.eyebrow,
+.section-title {
     padding-left: 20px;
 }
 
-.built-title {
+.section-title {
     font-size: 70px;
 }
 
