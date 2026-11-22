@@ -1,0 +1,64 @@
+.sound {
+    padding-top: 200px;
+    position: relative;
+}
+
+.sound-body {
+    position: relative;
+    border: 2px solid #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 100px 200px 100px;
+    z-index: 2;
+}
+
+.sound-list {
+    display: flex;
+    gap: 100px;
+}
+
+.sound-cover {
+    width: 350px;
+    height: auto;
+    border: 3px solid #ffff;
+}
+
+.sound-player {
+    width: 580px;
+    height: auto;
+    display: block;
+    position: relative;
+    top: 180px;
+}
+
+.sound-wave {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sound-bar {
+    width: 100%;
+    height: 30px;
+    display: block;
+}
+
+.sound-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.cover-name {
+    font-weight: 500;
+}
+
+.sound-deco {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
